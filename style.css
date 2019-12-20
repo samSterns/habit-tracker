@@ -1,0 +1,13 @@
+h1 {
+    animation: blink 1s linear infinite;
+  }
+
+  @keyframes blink {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
