@@ -3,7 +3,7 @@ const root = document.getElementById('root');
 const displayForm = () => {
   const form = document.createElement('form');
   form.innerHTML = `
-<fieldset>
+<fieldset class="form-fieldset">
   <legend>Signup</legend>
   <input name="email" type="text" placeholder="email">
   <input name="password" type="password" placeholder="password">

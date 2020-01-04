@@ -1,4 +1,12 @@
+
+
+* {
+  background-color: #F8F2D2;
+}
+
 h1 {
+  background-color:#819975;
+  color: #424846;
     animation: blink 1s linear infinite;
   }
 
@@ -10,4 +18,24 @@ h1 {
     to {
       opacity: 1;
     }
+  }
+
+  fieldset {
+    padding: 20px;
+    margin: 20px 0;
+    border: 3px solid #DE6D43;
+  }
+
+  legend {
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+
+  input[type="email"],
+  input[type="password"]{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 50px;
+
   }
